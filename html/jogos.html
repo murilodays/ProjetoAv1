@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos - Recomenda Jogos</title>
+    <meta name="author" content="Murilo e Arcanjo">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="../css/jogos.css">
+    <link rel="icon" href="../assets/img/icon.png">
+
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="../index.html"><h2>Recomenda Jogos</h2></a>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="../html/jogos.html" class="nav-link">Jogos</a></li>
+                    <li class="nav-item"><a href="../html/promoções.html" class="nav-link">Promoções</a></li>
+                    <li class="nav-item"><a href="../html/sobre.html" class="nav-link">Sobre</a></li>
+                </ul>
+            </div>
+            <div class="buttons">
+                <a href="../html/entrar.html" class="btn">Entrar</a>
+                <a href="../html/cadastrar.html" class="btn">Cadastrar</a>
+            </div>
+
+            <div class="mobile-menu-icon">
+              <button onclick="menuShow()"><img class="icon" src="../assets/img/menu_white.svg" alt=""></button>
+          </div>
+      </nav>
+
+          <div class="mobile-menu">
+              <div class="nav-list">
+                  <ul>
+                      <li class="nav-item"><a href="../html/jogos.html" class="nav-link">Jogos</a></li>
+                      <li class="nav-item"><a href="../html/promoções.html" class="nav-link">Promoções</a></li>
+                      <li class="nav-item"><a href="../html/sobre.html" class="nav-link">Sobre</a></li>
+                  </ul>
+              </div>
+              <div class="buttons">
+                  <a href="../html/entrar.html" class="btn">Entrar</a>
+                  <a href="../html/cadastrar.html" class="btn">Cadastrar</a>
+              </div>
+          </div>
+
+  </header>
+        
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/img/sw4k.jpg" class="d-block w-100 custom-img" alt="...">
+            <div class="carousel-caption custom-caption">
+              <h5>Star Wars Outlaws</h5>
+              <p>Arrisque tudo como a trapaceira Kay Vess, em busca de liberdade e dos meios para começar uma nova vida. Lute, roube e trapaceie pelo submundo enquanto enfrenta os sindicatos criminosos da galáxia.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/ghost4kk.jpg" class="d-block w-100 custom-img" alt="...">
+            <div class="carousel-caption custom-caption">
+              <h5>Ghost of Tsushima</h5>
+              <p>Jin Sakai, um samurai que arriscará tudo para defender a ilha de Tsushima da invasão mongol.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/tw4kk.jpg" class="d-block w-100 custom-img" alt="...">
+            <div class="carousel-caption custom-caption">
+              <h5>The Witcher 3: Wild Hunt</h5>
+              <p>Geralt de Rívia, um mercenário exterminador de monstros. Ao seu dispor, você tem todas as ferramentas: espadas afiadas, misturas letais, bestas furtivas e magias de combate poderosas.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/acv4kk.jpg" class="d-block w-100 custom-img" alt="...">
+            <div class="carousel-caption custom-caption">
+              <h5>Assassin's Creed Valhalla</h5>
+              <p>Torne-se Eivor, um invasor Viking lendário em busca de glória. Explore a Idade das Trevas da Inglaterra enquanto ataca seus inimigos, amplia seu assentamento e consolida seu poder político.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/tlou4kk.jpg" class="d-block w-100 custom-img" alt="...">
+            <div class="carousel-caption custom-caption">
+              <h5>The Last of Us Part II</h5>
+              <p>Quando um evento violento interrompe a paz, Ellie parte numa jornada incansável para fazer justiça e virar a página.</p>
+            </div>
+          </div>
+        </div>
+      
+        <button class="carousel-control-prev custom-btn" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next custom-btn" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><br>
+      <center><h2 class="games">Jogos Recomendados:</h2></center>
+
+      <main>
+        <section class="games-list">
+            <article class="game-item">
+                <img src="../assets/img/bg34k.jpg" alt="Imagem do Jogo 1">
+                <h2>Baldur's Gate 3</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>Escolha dentre diversas raças e classes de D&D ou assuma o papel de um personagem original com um histórico detalhado. Aventure-se, saqueie, lute e envolva-se em romances ao longo da sua jornada pelos Reinos Esquecidos e além. Jogue solo e escolha seus companheiros com cuidado, ou jogue em grupo com até quatro amigos no multijogador.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>RPG, Combate em Turnos, Aventura, Fantasia, Estratégia, Personalização de Personagem, Um Jogador, Cooperativo</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>PlayStation 5, Xbox Series X/S e PC</p>
+            </article>
+            
+            <article class="game-item">
+                <img src="../assets/img/bmo4k.jpeg" alt="Imagem do Jogo 2">
+                <h2>Black Myth: Wukong</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>Black Myth: Wukong é um RPG de ação inspirado na mitologia chinesa. A história é baseada em "Jornada para o Oeste", um dos Quatro Grandes Romances Clássicos da literatura do país. Você assume o papel do Predestinado e tem a responsabilidade de encarar os desafios e as maravilhas do mundo para desvendar a verdade obscura por trás de uma lenda gloriosa do passado.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>RPG, Ação, Aventura, Fantasia, Soulslike, 
+                    Hack and Slash, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>PlayStation 5, Xbox Series X/S e PC</p>
+            </article>
+            
+            <article class="game-item">
+                <img src="../assets/img/cyber4k.jpg" alt="Imagem do Jogo 3">
+                <h2>Cyberpunk 2077</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>Cyberpunk 2077 é um RPG de ação e aventura em mundo aberto ambientado na megalópole de Night City, onde você é um mercenário envolvido em uma intensa luta pela sobrevivência. Personalize o seu personagem e o seu estilo de jogo conforme aceita trabalhos, construa uma reputação e desbloqueie melhorias. Seus relacionamentos e suas escolhas moldarão a história e o mundo ao seu redor.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>RPG, Ação, Aventura, Mundo Aberto, Futurista, Primeira Pessoa, Personalização de Personagem, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>Playstation 5, Xbox Series X/S e PC</p>
+            </article>
+
+            <article class="game-item">
+                <img src="../assets/img/gow4k.jpg" alt="Imagem do Jogo 6">
+                <h2>God of War</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>Com a vingança contra os deuses do Olimpo em um passado distante, Kratos agora vive como um mortal no reino dos deuses e monstros nórdicos. É nesse mundo duro e implacável que ele deve lutar para sobreviver e ensinar seu filho a fazer o mesmo. <br> Do mármore e das colunas ornadas do Olimpo para as montanhas, cavernas e florestas sombrias do folclore nórdico pré-era viking, este é um reino claramente novo, com um panteão próprio de criaturas, monstros e deuses.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>RPG, Ação, Aventura, Fantasia, Hack and Slash, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>Playstation 4/5 e PC</p>
+            </article>
+
+            <article class="game-item">
+                <img src="../assets/img/gowr4k.jpg" alt="Imagem do Jogo 4">
+                <h2>God of War Ragnarök</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>God of War Ragnarök retoma a história com o Fimbulwinter em curso. Kratos e Atreus devem viajar pelos Nove Reinos em busca de respostas enquanto as forças de Odin em Asgard se preparam para uma batalha profetizada que causará o fim do mundo. Nessa jornada, eles vão explorar paisagens míticas impressionantes e enfrentar inimigos aterradores: deuses nórdicos e monstros. À medida que a ameaça do Ragnarök se aproxima, Kratos e Atreus terão de escolher entre a segurança da própria família e a dos reinos.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>RPG, Ação, Aventura, Fantasia, Hack and Slash, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>Playstation 4/5 e PC</p>
+            </article>
+            
+            <article class="game-item">
+                <img src="../assets/img/tlou14k.jpg" alt="Imagem do Jogo 5">
+                <h2>The Last of Us Part I</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>20 anos após uma pandemia mudar radicalmente a civilização tal qual a conhecemos, humanos infectados agem violentamente e os sobreviventes se matam por comida, armas ou qualquer outra coisa que virem pela frente. Joel, um sobrevivente violento, é contratado para tirar uma garota de 14 anos, Ellie, de uma zona de quarentena militar opressora. Porém, o que seria um trabalho simples se transforma numa jornada brutal pelos EUA.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>Ação, Aventura, Sobrevivência, Drama, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>Playstation 3/4/5, PC</p>
+            </article>
+            
+            <article class="game-item">
+                <img src="../assets/img/tlou24k.jpg" alt="Imagem do Jogo 7">
+                <h2>The Last of Us Part II</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>Cinco anos depois de uma jornada perigosa pelos Estados Unidos num cenário pós-pandêmico, Ellie e Joel se acomodaram em Jackson, Wyoming. A vida numa comunidade próspera de sobreviventes lhes trouxe paz e estabilidade, apesar da ameaça constante dos infectados e de outros sobreviventes mais desesperados.<br>Quando um evento violento interrompe a paz, Ellie parte numa jornada incansável para fazer justiça e virar a página. Enquanto vai atrás de cada um dos responsáveis, ela se confronta com as repercussões físicas e emocionais devastadoras das próprias ações.</p>
+                <p><strong>Gênero:</strong></p>
+                <P>Ação, Aventura, Sobrevivência, Drama, Um Jogador</P>
+                <p><strong>Plataformas:</strong></p>
+                <p>Playstation 4/5, PC</p>
+            </article>
+    
+            <article class="game-item">
+                <img src="../assets/img/tw34k.jpg" alt="Imagem do Jogo 8">
+                <h2>The Witcher 3: Wild Hunt</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>Você é Geralt, da cidade de Rívia. Ao seu redor, todas as cidades e os povoados dos Reinos do Norte estão sendo devastados pela força sobrenatural de um exército invasor, conhecido apenas como Caçada Selvagem, que deixa um rastro sangrento de pura destruição por onde passa. <br> Você descobrirá uma história complexa e envolvente e conhecerá personagens inesquecíveis enquanto se prepara para um confronto estrondoso com a Caçada Selvagem.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>RPG, Ação, Aventura, Fantasia, Medieval, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>PlayStation 4/5, Xbox One/Series X/S, Nintendo Switch e PC</p>
+            </article>
+    
+            <article class="game-item">
+                <img src="../assets/img/got4k.jpg" alt="Imagem do Jogo 9">
+                <h2>Ghost of Tsushima</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>No final do século XIII, o império mongol devastou nações em sua campanha para conquistar o Oriente. A Ilha de Tsushima é tudo que resta entre a ilha principal do Japão e a imensa frota invasora dos mongóis liderada por um general ardiloso e implacável, Khotun Khan. Enquanto a ilha é devastada pela primeira onda de ataques mongóis, surge Jin Sakai, um corajoso guerreiro samurai que é um dos últimos sobreviventes de seu clã. Ele está decidido a fazer o que for preciso, custe o que custar, para proteger seu povo e recuperar seu lar. Para isso, será necessário deixar de lado as tradições que o moldaram como guerreiro e forjar um novo caminho, o do Fantasma, travando uma guerra atípica pela liberdade de Tsushima.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>Ação, Aventura, Soulslike, Mundo Aberto, Um Jogador, Cooperativo</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>Playstation 4/5 e PC</p>
+            </article>
+
+            <article class="game-item">
+                <img src="../assets/img/sm4k.jpg" alt="Imagem do Jogo 4">
+                <h2>Marvel's Spider-Man</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>A Sony Interactive Entertainment, Insomniac Games e a Marvel fizeram uma parceria para criar uma aventura autêntica do Spider-Man. Esse não é o Spider-Man que você conhece ou já viu antes. É um Peter Parker experiente, que domina melhor a arte de combater os grandes criminosos na cidade de Marvel's New York. Ao mesmo tempo, ele está tendo dificuldades para equilibrar sua vida pessoal caótica e sua carreira, tudo isso enquanto o destino de milhões de civis está em suas mãos.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>Acão, Aventura, Mundo Aberto, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>Playstation 4/5 e PC</p>
+            </article>
+            
+            <article class="game-item">
+                <img src="../assets/img/smmm4k.jpg" alt="Imagem do Jogo 5">
+                <h2>Marvel's Spider-Man: Miles Morales</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>Na mais nova aventura do universo de Marvel's Spider-Man, o adolescente Miles Morales está se adaptando a um novo lar enquanto segue os passos de seu mentor, Peter Parker, como novo Spider-Man. Mas quando uma violenta disputa de forças ameaça destruir sua vizinhança, o aspirante a herói percebe que com grandes poderes também vêm grandes responsabilidades. Para salvar a Nova York da Marvel, Miles deve reconhecer e assumir o título de Spider-Man.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>Acão, Aventura, Mundo Aberto, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>Playstation 4/5 e PC</p>
+            </article>
+            
+            <article class="game-item">
+                <img src="../assets/img/sm24k.jpeg" alt="Imagem do Jogo 6">
+                <h2>Marvel's Spider-Man 2</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>Os Spiders Peter Parker e Miles Morales estão de volta em mais uma aventura eletrizante da famosa franquia Marvel's Spider-Man para PS5. Pendure-se, pule e plane com as novas Asas de Teia para percorrer a Nova York da Marvel. Alterne rapidamente entre Peter Parker e Miles Morales para jogar histórias diferentes e usar novos poderes épicos enquanto o infame vilão Venom ameaça a vida deles, das pessoas próximas a eles e toda a cidade.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>Acão, Aventura, Mundo Aberto, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>Playstation 5</p>
+            </article>
+            
+            <article class="game-item">
+                <img src="../assets/img/swfo4k.jpg" alt="Imagem do Jogo 7">
+                <h2>Star Wars Jedi: Fallen Order</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>Prepare-se para cruzar a galáxia em Star Wars Jedi: Fallen Order, uma nova aventura em terceira pessoa cheia de ação da Respawn Entertainment. Este jogo para um jogador focado na narrativa coloca você na pele de um padawan que escapou por pouco do expurgo da Ordem 66, após os eventos do Episódio III – A Vingança dos Sith. Em um esforço para reerguer a Ordem Jedi, você precisa reunir os fragmentos do seu passado, completar seu treinamento, desenvolver novas habilidades com a Força e dominar a arte do lendário sabre de luz — tudo isso enquanto despista o Império e seu letais inquisidores.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>Ação, Aventura, Ficção Científica, Soulslike, Hack and Slash, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>PlayStation 4/5, Xbox One/Series X/S e PC</p>
+            </article>
+    
+            <article class="game-item">
+                <img src="../assets/img/swjs4k.jpg" alt="Imagem do Jogo 8">
+                <h2>Star Wars Jedi: Survivor</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>A história de Cal Kestis continua 5 anos após os eventos de Star Wars Jedi: Fallen Order, acompanhando a luta cada vez mais desesperada de Cal enquanto a galáxia se torna ainda mais sombria. Empurrado para os limites da galáxia pelo Império, Cal se verá cercado por ameaças novas e conhecidas. Como um dos últimos Cavaleiros Jedi sobreviventes, Cal precisa mostrar seu valor durante o momento mais sombrio da galáxia, mas até onde ele está disposto a ir para proteger a si, sua equipe e o legado da Ordem Jedi?</p>
+                <p><strong>Gênero:</strong></p>
+                <p>Ação, Aventura, Ficção Científica, Soulslike, Hack and Slash, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>PlayStation 4/5, Xbox One/Series X/S e PC</p>
+            </article>
+    
+            <article class="game-item">
+                <img src="../assets/img/swol4k.jpg" alt="Imagem do Jogo 9">
+                <h2>Star Wars Outlaws</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>A galáxia está cheia de oportunidades para quem tem coragem de arriscar. Vivencie o primeiro jogo de mundo aberto de Star Wars™ e explore planetas novos e lendários por toda a galáxia. Aposte tudo na pele de Kay Vess, uma vigarista em ascensão que busca liberdade e meios para começar uma nova vida. Lute, roube e trapaceie em meio aos sindicatos do crime e entre para o rol dos mais procurados da galáxia. Explore locais distintos com cidades e cantinas agitadas. Dispare por vastas paisagens no seu speeder. Cada local traz novas aventuras, desafios únicos e recompensas atraentes para quem topar correr os riscos. E transforme qualquer encrenca em vantagem com Nix ao seu lado.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>Ação, Aventura, Ficção Científica, Mundo Aberto, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>PlayStation 5, Xbox Series X/S e PC</p>
+            </article>
+
+            <article class="game-item">
+                <img src="../assets/img/acor4k.jpg" alt="Imagem do Jogo 7">
+                <h2>Assassin’s Creed Origins</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>Entre em uma jornada no Egito Antigo, o lugar mais misterioso de toda História, durante um período crucial que moldou o mundo que vivemos hoje. Descubra os segredos por trás das Grande Pirâmides, mitos esquecidos, os último faraós, e – entalhada em hieróglifos perdidos no tempo – a história de origem da Irmandade dos Assassinos. <br> Lute de uma forma completamente nova, transitando naturalmente entre armas únicas de corpo-a-corpo e de alcance, enfrentando diversos inimigos ao mesmo tempo. Escolha suas habilidades de Assassino, enquanto explora o país inteiro do Egito Antigo, se envolvendo em diversas aventuras e histórias cativantes, junto de uma jornada que irá mudar a civilização.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>RPG, Ação, Aventura, Mundo Aberto, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>PlayStation 4/5, Xbox One/Series X/S e PC</p>
+            </article>
+    
+            <article class="game-item">
+                <img src="../assets/img/aco4k.jpg" alt="Imagem do Jogo 8">
+                <h2>Assassin's Creed Odyssey</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>Decida o seu destino em Assassin's Creed Odyssey. De exilado à lenda viva, embarque em uma odisseia para descobrir os segredos do seu passado e mudar o destino da Grécia Antiga. De florestas exuberantes a ilhas vulcânicas e cidades cheias de vida, explore um mundo dividido pela guerra e moldado pelos deuses e pelo homem. As suas decisões influenciam os desdobramentos da sua odisseia. Veja finais diferentes graças ao novo sistema de diálogos e às escolhas que você faz. Personalize seu equipamento, embarcação e habilidades especiais para se tornar uma lenda. Mostre as suas habilidades de combate em batalhas de grande escala entre Atenas e Esparta com centenas de soldados, ou abra caminho através de frotas inteiras em batalhas navais no Mar Egeu.
+                </p>
+                <p><strong>Gênero:</strong></p>
+                <p>RPG, Ação, Aventura, Mundo Aberto, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>PlayStation 4/5, Xbox One/Series X/S, Nintendo Switch e PC</p>
+            </article>
+    
+            <article class="game-item">
+                <img src="../assets/img/acv34k.jpg" alt="Imagem do Jogo 9">
+                <h2>Assassin's Creed Valhalla</h2>
+                <p><strong>Descrição:</strong></p>
+                <p>Torne-se um viking lendário, criado nas histórias sobre batalhas e glória. Invada os inimigos, crie um assentamento e construa seu poder político em uma missão para ganhar um lugar entre os deuses em Valhalla. Mecânicas avançadas de RPG determinam o crescimento do personagem e influenciam o mundo ao redor. Cada escolha tomada, de alianças políticas e estratégia de combate a diálogos e progresso de equipamento, define seu próprio caminho rumo à glória. Erga e melhore construções com personalização profunda, incluindo barracas, ferreiro, tatuador e muito mais. Recrute novos membros para seu clã e personalize sua experiência viking.</p>
+                <p><strong>Gênero:</strong></p>
+                <p>RPG, Ação, Aventura, Mundo Aberto, Um Jogador</p>
+                <p><strong>Plataformas:</strong></p>
+                <p>PlayStation 4/5, Xbox One/Series X/S e PC</p>
+            </article>
+        </section>
+    </main>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

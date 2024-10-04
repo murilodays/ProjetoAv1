@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoções - Recomenda Jogos</title>
+    <meta name="author" content="Murilo e Arcanjo">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="../css/promoções.css">
+    <link rel="icon" href="../assets/img/icon.png">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="../index.html"><h2>Recomenda Jogos</h2></a>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="../html/jogos.html" class="nav-link">Jogos</a></li>
+                    <li class="nav-item"><a href="../html/promoções.html" class="nav-link">Promoções</a></li>
+                    <li class="nav-item"><a href="../html/sobre.html" class="nav-link">Sobre</a></li>
+                </ul>
+            </div>
+            <div class="buttons">
+                <a href="../html/entrar.html" class="btn">Entrar</a>
+                <a href="../html/cadastrar.html" class="btn">Cadastrar</a>
+            </div>
+
+            <div class="mobile-menu-icon">
+              <button onclick="menuShow()"><img class="icon" src="../assets/img/menu_white.svg" alt=""></button>
+          </div>
+      </nav>
+
+          <div class="mobile-menu">
+              <div class="nav-list">
+                  <ul>
+                      <li class="nav-item"><a href="../html/jogos.html" class="nav-link">Jogos</a></li>
+                      <li class="nav-item"><a href="../html/promoções.html" class="nav-link">Promoções</a></li>
+                      <li class="nav-item"><a href="../html/sobre.html" class="nav-link">Sobre</a></li>
+                  </ul>
+              </div>
+              <div class="buttons">
+                  <a href="../html/entrar.html" class="btn">Entrar</a>
+                  <a href="../html/cadastrar.html" class="btn">Cadastrar</a>
+              </div>
+          </div>
+
+  </header>
+
+    <section id="promocoes"></section>
+        <h2 class="promo-tittle">Promoções Atuais:</h2>
+        <div class="promo-card">
+            <a class="promo" href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/">Grand Theft Auto V: com 66% de desconto por R$ 49,61 na Steam.</a>
+        </div>
+        <div class="promo-card">
+            <a class="promo" href="https://store.steampowered.com/app/582010/Monster_Hunter_World/">Monster Hunter World: com 67% de desconto por R$ 32,96 na Steam até 08/10.</a>
+        </div>
+        <div class="promo-card">
+            <a class="promo" href="https://store.epicgames.com/pt-BR/p/assassins-creed-mirage">Assassin's Creed Mirage: com 50% de desconto por R$ 104,99 na Epic Games até 10/10.</a>
+        </div>
+        <div class="promo-card">
+            <a class="promo" href="https://store.playstation.com/pt-br/product/UP4497-PPSA03972_00-00000000000GOTY7">The Witcher 3: Wild Hunt – Complete Edition: com 75% de desconto por R$ 51,97 na PSN até 10/10.</a>
+        </div>
+        <div class="promo-card">
+            <a class="promo" href="https://store.playstation.com/pt-br/product/UP1018-CUSA01764_00-ARKHAMBUNDLE0000">Batman: Arkham Collection: com 90% de desconto por R$ 24,99 na PSN até 10/10.</a>
+        </div>
+        <div class="promo-card">
+            <a class="promo" href="https://store.playstation.com/pt-br/product/UP9000-CUSA00900_00-BLOODBORNE000000">Bloodborne: com 50% de desconto por R$ 49,75 na PSN até 10/10.</a>
+        </div>
+        <div class="promo-card">
+            <a class="promo" href="https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/">DARK SOULS: REMASTERED: com 50% de desconto por R$ 77,45 na Steam até 10/10.</a>
+        </div>
+        <div class="promo-card">
+            <a class="promo" href="https://store.steampowered.com/app/335300/DARK_SOULS_II_Scholar_of_the_First_Sin/">DARK SOULS II: com 50% de desconto por R$ 77,45 na Steam até 10/10.</a>
+        </div>
+        <div class="promo-card">
+            <a class="promo" href="https://store.steampowered.com/app/374320/DARK_SOULS_III/">DARK SOULS III: com 50% de desconto por R$ 114,95 na Steam até 10/10.</a>
+        </div>
+        <div class="promo-card">
+            <a class="promo" href="https://store.epicgames.com/pt-BR/p/assassins-creed-origins">Assassin's Creed Origins: com 85% de desconto por R$ 26,99 na Epic Games até 17/10.</a>
+        </div>
+        <div class="promo-card">
+            <a class="promo" href="https://store.epicgames.com/pt-BR/p/assassins-creed-odyssey">Assassin's Creed Odyssey: com 80% de desconto por R$ 35,99 na Epic Games até 17/10.</a>
+        </div>
+        <div class="promo-card">
+            <a class="promo" href="https://store.epicgames.com/pt-BR/p/assassins-creed-valhalla">Assassin's Creed Valhalla: com 75% de desconto por R$ 49,99 na Epic Games até 17/10.</a>
+        </div>
+    </section>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

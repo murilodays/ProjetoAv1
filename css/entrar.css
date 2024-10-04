@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.form-container {
+    background-color: #1c1c1c;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff6700;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #fff;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6700;
+    color: #fff;
+    border: 2px solid #ff6700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: transparent;
+    color: #ff6700;
+} 
+
+button {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.back-button {
+    display: flex; 
+    position: fixed; 
+    top: -5px;
+    left: 10px;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 25px;
+    width: 80px; 
+    height: 30px;
+}
+
+.changepass a {
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.changepass a:hover {
+    color: #ff6700;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.register a {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.register a {
+    color: #fff;
+}
+
+.register p {
+    color: #fff;
+}
+
+.register a:hover {
+    color: #ff6700;
+}
+
