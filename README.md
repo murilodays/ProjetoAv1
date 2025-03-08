@@ -40,7 +40,7 @@ O site possui as seguintes páginas:
 ## Processo de Desenvolvimento  
 
 1. **Estruturação do HTML**: Base do site com seções bem definidas.  
-2. **Estilização com CSS e Bootstrap**: Design moderno e responsivo.  
+2. **Estilização com CSS e Bootstrap**: Design e responsividade.  
 3. **Implementação do Menu Responsivo**:  
    - Botão de menu (hamburger) para telas menores.  
    - JavaScript utilizado para alternar a exibição do menu ao clicar no botão.  
@@ -57,6 +57,6 @@ O site possui as seguintes páginas:
 
 ## Entre em Contato Comigo
 
-- **Email**: contatomurilodays@email.com  
+- **Email**: contatomurilodays@gmail.com  
 - **LinkedIn**: <a href="https://www.linkedin.com/in/murilodays/"> murilodays </a>
 - **Telefone/WhatsApp**: <a href="https://wa.me/message/ONXRU2RSDSNEE1"> +55 81 9 9608 5335 </a>
