@@ -39,15 +39,14 @@ O site possui as seguintes páginas:
 
 ## Processo de Desenvolvimento  
 
-1. **Estruturação do HTML**: Criamos a base do site com seções bem definidas.  
-2. **Estilização com CSS e Bootstrap**: Garantimos um design moderno e responsivo.  
+1. **Estruturação do HTML**: Base do site com seções bem definidas.  
+2. **Estilização com CSS e Bootstrap**: Design moderno e responsivo.  
 3. **Implementação do Menu Responsivo**:  
-   - Criamos um botão de menu (hamburger) para telas menores.  
-   - Utilizamos JavaScript para alternar a exibição do menu ao clicar no botão.  
+   - Botão de menu (hamburger) para telas menores.  
+   - JavaScript utilizado para alternar a exibição do menu ao clicar no botão.  
 4. **Criação do Carrossel na Página de Jogos**:  
    - Implementado com o componente de **Carousel** do Bootstrap.  
-   - Configurado para alternar automaticamente entre imagens dos jogos.  
-5. **Testes e Ajustes**: Garantimos boa usabilidade em diferentes dispositivos.  
+   - Configurado para alternar automaticamente entre imagens dos jogos.   
 
 ## Melhorias Futuras  
 
